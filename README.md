@@ -2,6 +2,13 @@
 
 Static local portfolio for `abdrrahim.com`.
 
+## GitHub Pages
+
+The repository includes:
+
+- [deploy-pages.yml](c:/Users/ana35/OneDrive%20-%20NIST/Desktop/cooding/portfolio/.github/workflows/deploy-pages.yml) to deploy the static site on every push to `main`
+- [CNAME](c:/Users/ana35/OneDrive%20-%20NIST/Desktop/cooding/portfolio/CNAME) so GitHub Pages uses `abdrrahim.com`
+
 ## Run locally
 
 ```powershell
