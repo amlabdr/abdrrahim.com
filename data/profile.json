@@ -1,0 +1,156 @@
+{
+  "name": "Abderrahim Amlou",
+  "role": "Researcher and Software Engineer",
+  "workEmail": "abderrahim.amlou@nist.gov",
+  "location": "Gaithersburg, Maryland, USA",
+  "photo": {
+    "src": "data/abderrahim-amlou-portrait.jpg",
+    "alt": "Portrait of Abderrahim Amlou"
+  },
+  "summary": "Researcher and software engineer focused on quantum networking systems, embedded software, experimental control infrastructure, and network automation.",
+  "about": "I design software and measurement infrastructure for complex systems where research-grade experimentation needs reliable engineering. My work spans quantum communication platforms, distributed measurement software, programmable network backends, secure embedded systems, and simulation-driven evaluation of next-generation networks.",
+  "highlights": [
+    { "value": "4+", "label": "Professional roles across research, cybersecurity, IoT, and AI" },
+    { "value": "2021", "label": "Joined NIST to work on quantum networking systems" },
+    { "value": "PhD", "label": "Ongoing research in computer science and quantum networks" },
+    { "value": "5", "label": "Languages spoken across technical and international environments" }
+  ],
+  "focusAreas": [
+    "Quantum Networks",
+    "Embedded Software",
+    "Measurement Systems",
+    "Network Automation",
+    "Systems Integration",
+    "Machine Learning"
+  ],
+  "currentFocus": [
+    "Real-time software agents for quantum measurement and control",
+    "Distributed orchestration for multi-node experiments",
+    "Programmable optical switching and telemetry",
+    "Simulation and AI-based evaluation of quantum network performance"
+  ],
+  "experience": [
+    {
+      "title": "Embedded Software Engineer and Quantum Networks Researcher",
+      "subtitle": "National Institute of Standards and Technology (NIST), Gaithersburg, Maryland, USA",
+      "date": "October 2021 - Present",
+      "points": [
+        "Built real-time Python control software for quantum measurement systems, including coincidence detection, source control, and White Rabbit time synchronization.",
+        "Designed a distributed measurement plane to orchestrate experiments and collect data across multiple quantum network nodes.",
+        "Implemented network automation backends for programmable optical switches using NETCONF, RESTCONF, and OpenConfig.",
+        "Extended quantum network simulation workflows with custom entanglement swapping logic and evaluation models."
+      ]
+    },
+    {
+      "title": "Cybersecurity Engineer",
+      "subtitle": "Schneider Electric, Angouleme, France",
+      "date": "May 2021 - September 2021",
+      "points": [
+        "Integrated Infineon Trust-M secure elements with ARM-based industrial microcontrollers for device authentication and secure communications.",
+        "Implemented secure boot, firmware signing, and TLS communication use cases for embedded industrial systems.",
+        "Developed embedded C firmware for cryptographic operations using hardware security modules."
+      ]
+    },
+    {
+      "title": "IoT Engineer",
+      "subtitle": "KYNEX Digital Business, Phnom Penh, Cambodia",
+      "date": "June 2020 - September 2020",
+      "points": [
+        "Built an end-to-end IoT safety system for motorcycles with embedded sensing, Bluetooth communication, and an Android application.",
+        "Programmed Arduino-based controllers to collect and transmit real-time data on speed, tilt, and vibration."
+      ]
+    },
+    {
+      "title": "AI Developer",
+      "subtitle": "Soft Center, Rabat, Morocco",
+      "date": "June 2019 - August 2019",
+      "points": [
+        "Built Python-based machine learning models to improve driver-passenger matching in a ride-sharing application.",
+        "Prepared user data and integrated recommendation logic into the application backend."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Ph.D. in Computer Science - Quantum Networks",
+      "subtitle": "University of Grenoble Alpes, Grenoble, France",
+      "date": "2023 - Present",
+      "points": [
+        "Research topic: Towards an AI-based framework for quantum network evaluation.",
+        "Focus on simulation, performance modeling, entanglement generation, and machine-learning-based optimization."
+      ]
+    },
+    {
+      "title": "Master's Degree in Software for Embedded Systems",
+      "subtitle": "University of Western Brittany, Brest, France",
+      "date": "2020 - 2021",
+      "points": [
+        "Specialized in design, simulation, and verification of secure embedded systems.",
+        "Master's thesis with Schneider Electric on secure hardware modules for encrypted communications and firmware updates."
+      ]
+    },
+    {
+      "title": "Engineering Degree in Embedded Systems",
+      "subtitle": "National Institute of Posts and Telecommunications (INPT), Rabat, Morocco",
+      "date": "2018 - 2021",
+      "points": [
+        "Five-year engineering program covering electronics, embedded software, FPGA development, systems design, and networking."
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Vice Chair",
+      "subtitle": "IEEE Communications Society, Washington DC Section",
+      "date": "2023 - 2024",
+      "points": [
+        "Coordinated technical events focused on communications and quantum networking technologies."
+      ]
+    },
+    {
+      "title": "General Secretary",
+      "subtitle": "IEEE Engineering in Medicine and Biology Society, Washington DC Section",
+      "date": "2023 - 2024",
+      "points": [
+        "Supported logistics and communication for health-tech and AI events."
+      ]
+    },
+    {
+      "title": "Humanitarian Organizer",
+      "subtitle": "CAS Charity Club, INPT, Rabat, Morocco",
+      "date": "2018 - 2021",
+      "points": [
+        "Helped organize humanitarian aid missions supporting families in remote High Atlas regions."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "Programming",
+      "items": ["Python", "C", "C++", "Java", "MATLAB", "Shell", "VHDL", "Assembly"]
+    },
+    {
+      "title": "Quantum and Research Systems",
+      "items": ["SeQUeNCe Simulator", "Time Tagger", "White Rabbit", "SPDC Source Control", "Experimental Automation"]
+    },
+    {
+      "title": "Embedded and Hardware",
+      "items": ["STM32", "FPGA", "Raspberry Pi", "DSP", "UART", "SPI", "I2C", "CAN", "USB"]
+    },
+    {
+      "title": "Networking and Security",
+      "items": ["IPv4/IPv6", "NETCONF", "RESTCONF", "OpenConfig", "TLS", "RSA", "ECC", "Secure Boot", "Firmware Signing"]
+    },
+    {
+      "title": "Software and DevOps",
+      "items": ["Git", "Docker", "Kubernetes", "Linux", "REST APIs", "gRPC"]
+    }
+  ],
+  "links": {
+    "github": { "label": "GitHub", "href": "https://github.com/amlabdr", "external": true },
+    "linkedin": { "label": "LinkedIn", "href": "https://www.linkedin.com/in/amlabdr", "external": true },
+    "scholar": { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=L_9EEFcAAAAJ&hl=en", "external": true },
+    "nist": { "label": "NIST Profile", "href": "https://www.nist.gov/people/abderrahim-amlou", "external": true },
+    "orcid": { "label": "ORCID", "href": "https://orcid.org/0009-0000-1227-8999", "external": true }
+  }
+}
