@@ -20,121 +20,113 @@
   <div class="page-shell">
     <header class="site-header">
       <a class="brand" href="#top">Abderrahim</a>
-      <div class="header-actions">
-        <nav class="site-nav" aria-label="Primary">
-          <a href="#publications">Publications</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme">
-          <span class="theme-toggle__sun">Light</span>
-          <span class="theme-toggle__moon">Dark</span>
-        </button>
-      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
-    <main id="top" class="dashboard">
-      <section class="panel panel-hero">
-        <div class="panel-cover" id="hero-cover" hidden>
+    <main id="top">
+      <section class="hero card">
+        <div class="hero-cover" id="hero-cover" hidden>
           <img id="hero-cover-image" alt="Cover photo of Abderrahim Amlou">
-          <div class="panel-cover__veil"></div>
+          <div class="hero-cover-overlay"></div>
         </div>
-        <div class="panel-hero__body">
-          <div class="panel-kicker" id="hero-role">Researcher and Software Engineer</div>
-          <h1 id="hero-name">Abderrahim</h1>
-          <p class="panel-subtitle">Abderrahim Amlou</p>
-          <p class="hero-lead" id="hero-summary"></p>
-          <div class="hero-actions">
-            <a class="button button-primary" id="email-link" href="#">Contact</a>
-            <a class="button button-secondary" id="scholar-link" href="#" target="_blank" rel="noreferrer">Scholar</a>
+        <div class="hero-body">
+          <div class="hero-copy">
+            <p class="eyebrow" id="hero-role">Researcher and Software Engineer</p>
+            <h1 id="hero-name">Abderrahim</h1>
+            <p class="lead" id="hero-summary">
+              Building reliable software and measurement infrastructure for quantum networking systems.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" id="email-link" href="#contact">Get in touch</a>
+              <a class="button button-secondary" id="scholar-link" href="#" target="_blank" rel="noreferrer">Google Scholar</a>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="stat-grid" id="highlights"></div>
           </div>
         </div>
       </section>
 
-      <section class="panel panel-intro">
-        <div class="mini-profile">
-          <div class="mini-profile__badge">AA</div>
+      <section class="grid-two">
+        <article class="card" id="about">
+          <p class="section-label">About</p>
+          <h2>Work at the intersection of research systems and production software.</h2>
+          <p id="about-text"></p>
+          <div class="tag-list" id="focus-areas"></div>
+        </article>
+
+        <aside class="card">
+          <p class="section-label">Current Focus</p>
+          <ul class="detail-list" id="current-focus"></ul>
+        </aside>
+      </section>
+
+      <section class="card" id="experience">
+        <div class="section-heading">
           <div>
-            <p class="mini-profile__greeting">Hello, I'm <strong>Abderrahim.</strong></p>
-            <p class="mini-profile__role" id="intro-role">Researcher and Software Engineer</p>
+            <p class="section-label">Experience</p>
+            <h2>Selected roles and technical contributions</h2>
           </div>
         </div>
-        <p class="intro-text" id="about-text"></p>
+        <div class="timeline" id="experience-list"></div>
       </section>
 
-      <section class="panel panel-metrics">
-        <p class="panel-label">Highlights</p>
-        <div class="metric-grid" id="highlights"></div>
-      </section>
-
-      <section class="panel panel-location">
-        <p class="panel-label">Based In</p>
-        <h2 id="location-title">Gaithersburg</h2>
-        <p class="location-text" id="location-text"></p>
-      </section>
-
-      <section class="panel panel-focus">
-        <p class="panel-label">Currently</p>
-        <h2>What I am working on</h2>
-        <ul class="stack-list" id="current-focus"></ul>
-      </section>
-
-      <section class="panel panel-publications" id="publications">
-        <div class="panel-heading">
-          <div>
-            <p class="panel-label">Publications</p>
-            <h2>Recent publications</h2>
+      <section class="grid-two">
+        <article class="card" id="publications">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Publications</p>
+              <h2>Recent publications</h2>
+            </div>
+            <p class="section-note" id="publication-meta">Loading publication data...</p>
           </div>
-          <p class="panel-note" id="publication-meta"></p>
-        </div>
-        <div class="publication-stack" id="recent-publications"></div>
-      </section>
+          <div class="publication-stack" id="recent-publications"></div>
+        </article>
 
-      <section class="panel panel-selected">
-        <div class="panel-heading">
-          <div>
-            <p class="panel-label">Selected Work</p>
-            <h2>Research signals</h2>
+        <aside class="card">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Research Highlights</p>
+              <h2>Selected work</h2>
+            </div>
+            <p class="section-note" id="selected-meta">Chosen from publication impact and visibility</p>
           </div>
-          <p class="panel-note">A mix of visibility, citations, and recency</p>
-        </div>
-        <div class="publication-stack" id="selected-publications"></div>
+          <div class="publication-stack" id="selected-publications"></div>
+        </aside>
       </section>
 
-      <section class="panel panel-about" id="about">
-        <p class="panel-label">About Me</p>
-        <h2>Research systems, embedded software, and networked experimentation.</h2>
-        <div class="tag-list" id="focus-areas"></div>
+      <section class="grid-two">
+        <article class="card" id="education">
+          <p class="section-label">Education</p>
+          <h2>Academic background</h2>
+          <div class="timeline compact" id="education-list"></div>
+        </article>
+
+        <aside class="card">
+          <p class="section-label">Leadership</p>
+          <h2>Professional service and community work</h2>
+          <div class="timeline compact" id="leadership-list"></div>
+        </aside>
       </section>
 
-      <section class="panel panel-experience">
-        <p class="panel-label">Experience</p>
-        <h2>Selected technical contributions</h2>
-        <div class="timeline compact" id="experience-list"></div>
-      </section>
+      <section class="grid-two">
+        <article class="card">
+          <p class="section-label">Technical Profile</p>
+          <h2>Core capabilities</h2>
+          <div class="skill-groups" id="skill-groups"></div>
+        </article>
 
-      <section class="panel panel-skills">
-        <p class="panel-label">Technical Profile</p>
-        <h2>Core capabilities</h2>
-        <div class="skill-groups" id="skill-groups"></div>
-      </section>
-
-      <section class="panel panel-education">
-        <p class="panel-label">Education</p>
-        <h2>Academic background</h2>
-        <div class="timeline compact" id="education-list"></div>
-      </section>
-
-      <section class="panel panel-service">
-        <p class="panel-label">Leadership</p>
-        <h2>Professional service</h2>
-        <div class="timeline compact" id="leadership-list"></div>
-      </section>
-
-      <section class="panel panel-contact" id="contact">
-        <p class="panel-label">Get In Touch</p>
-        <h2>Open to research, engineering, and collaboration conversations.</h2>
-        <div class="contact-list" id="contact-list"></div>
+        <aside class="card" id="contact">
+          <p class="section-label">Contact</p>
+          <h2>Links and profiles</h2>
+          <div class="contact-list" id="contact-list"></div>
+        </aside>
       </section>
     </main>
   </div>
