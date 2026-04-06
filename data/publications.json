@@ -1,64 +1,48 @@
 {
-  "updatedAt": "2026-04-02",
+  "updatedAt": "2026-04-06",
   "sources": [
     "ORCID",
-    "NIST",
-    "Google Scholar"
+    "NIST"
   ],
   "publications": [
     {
       "title": "Multiverse: A Simulator for Evaluating Entanglement Routing in Quantum Networks",
       "published": "2026-01-01",
       "venue": "IEEE Internet Computing",
-      "authors": "A Abane, J Shi, VS Mai, A Amlou, A Battou",
+      "authors": "",
       "links": [
         {
           "label": "DOI",
           "href": "https://doi.org/10.1109/MIC.2026.3651126"
-        },
-        {
-          "label": "Scholar",
-          "href": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_9EEFcAAAAJ&amp;citation_for_view=L_9EEFcAAAAJ:2osOgNQ5qMEC"
         }
       ],
-      "source": "ORCID",
-      "citationCount": 0
+      "source": "ORCID"
     },
     {
       "title": "Scalable Time-Tagged Data Acquisition for Entanglement Distribution in Quantum Networks",
       "published": "2025-08-30",
       "venue": "2025 IEEE International Conference on Quantum Computing and Engineering (QCE)",
-      "authors": "A Amlou, T Gerrits, A Rahmouni, A Abane, M Merzouki, YS Li-Baboud, ...",
+      "authors": "",
       "links": [
         {
           "label": "DOI",
           "href": "https://doi.org/10.1109/qce65121.2025.00127"
-        },
-        {
-          "label": "Scholar",
-          "href": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_9EEFcAAAAJ&amp;citation_for_view=L_9EEFcAAAAJ:9yKSN-GCB0IC"
         }
       ],
-      "source": "ORCID",
-      "citationCount": 0
+      "source": "ORCID"
     },
     {
       "title": "Towards Optimal Orders for Entanglement Swapping in Path Graphs: A Greedy Approach",
       "published": "2025-08-30",
       "venue": "2025 IEEE International Conference on Quantum Computing and Engineering (QCE)",
-      "authors": "VS Mai, A Amlou, A Abane, A Battou",
+      "authors": "",
       "links": [
         {
           "label": "DOI",
           "href": "https://doi.org/10.1109/qce65121.2025.00138"
-        },
-        {
-          "label": "Scholar",
-          "href": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_9EEFcAAAAJ&amp;citation_for_view=L_9EEFcAAAAJ:d1gkVwhDpl0C"
         }
       ],
-      "source": "ORCID",
-      "citationCount": 1
+      "source": "ORCID"
     },
     {
       "title": "A Data Collection Platform for Network Management",
@@ -73,14 +57,10 @@
         {
           "label": "NIST",
           "href": "https://www.nist.gov/publications/data-collection-platform-network-management"
-        },
-        {
-          "label": "Scholar",
-          "href": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_9EEFcAAAAJ&amp;citation_for_view=L_9EEFcAAAAJ:u-x6o8ySG0sC"
         }
       ],
       "source": "ORCID",
-      "citationCount": 4
+      "citationCount": 0
     },
     {
       "title": "Automated Network Programmability Using OpenConfig YANG Models and NETCONF Protocol",
@@ -95,14 +75,10 @@
         {
           "label": "NIST",
           "href": "https://www.nist.gov/publications/automated-network-programmability-using-openconfig-yang-models-and-netconf-protocol"
-        },
-        {
-          "label": "Scholar",
-          "href": "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_9EEFcAAAAJ&amp;citation_for_view=L_9EEFcAAAAJ:u5HHmVD_uO8C"
         }
       ],
       "source": "ORCID",
-      "citationCount": 7
+      "citationCount": 0
     }
   ]
 }
